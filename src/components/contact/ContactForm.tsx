@@ -54,7 +54,7 @@ const ContactForm: React.FC = () => {
       message: '',
     });
   };
-
+ 
   return (
     <>
       <form onSubmit={handleSubmit} data-netlify="true">
