@@ -1,0 +1,34 @@
+#contact{
+    height: auto;
+    color: #f2f8fc;
+}
+
+
+.pod-contact{
+    border: 1px solid #1611102c;
+    border-radius: 25px;
+    height: auto;
+    background-color: #ffffff0e;
+}
+
+
+.MuiFormControl-root{
+    background-color: #f2f8fc;
+    border-radius: 14px !important;
+    font-size: 16px !important;
+    font-family: Poppins !important;
+}
+
+.MuiFilledInput-root::after {
+    border-bottom: none!important;
+    font-family: Poppins !important;
+
+}
+
+.MuiInputLabel-filled{
+    color: #e73c7e !important;
+}
+
+.section {
+    height: auto;
+}

@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  color: #f2f8fc;
+}
+
+p{
+  font-size: 18px;
+}
+
+.btn-disabled {
+  font-family: Poppins;
+  border-radius: 10px;
+  background-color: #ffffff15 !important ;
+  font-size: 20px;
+  color: #e73c7e !important;
+  font-weight: 500;
+  border:#ffffff15;
+
+}
+
+.btn-primary, Button{
+  font-family: Poppins;
+  border-radius: 20px !important;
+  border:#e73c7e;
+  background-color: #ffffff15 !important;
+  color: #3ce7a5 !important;
+  font-weight: 500;
+  width: 135px !important;
+
+}
+
+.btn-primary:hover, .btn-primary:active {
+  font-family: Poppins;
+  border-radius: 20px;
+  background-color: #e73c7e !important;
+  color:#f2f8fc !important;
+}
+
+.btn-close {
+  color: #292929 !important;
+}
+

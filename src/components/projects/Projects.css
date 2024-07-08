@@ -1,0 +1,33 @@
+#projects{
+    height: auto;
+    color: #f2f8fc;
+}
+
+.project{
+    background-color: #ffffff0e;
+    height: auto;
+    border-radius: 24px;
+    border: 1px solid #e73c7e;
+    border-radius: 25px;
+    background-color: #ffffff0e;
+
+}
+
+.project:hover {
+    border: 1px solid #e73c7e;
+}
+
+
+.projectImg {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Link {
+    color: #e73c7e !important;
+    text-decoration: none;
+}
+
+h6 {
+    font-size: 13px;
+  }

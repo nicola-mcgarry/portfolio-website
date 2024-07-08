@@ -1,0 +1,73 @@
+#home {
+    height:100vh;
+    padding-top:140px;
+    color: #f2f8fc;              
+    padding: 218px 100px 0px 100px;
+}
+
+
+span {
+    color: #e73c7e;
+    font-size:50px;
+}
+
+p{
+    font-weight:500;
+}
+
+.top-curve {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.top-curve svg {
+    position: relative;
+    display: block;
+    width: calc(198% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+    
+}
+
+.top-curve .shape-fill {
+    fill: #f2f8fc;
+    
+}
+
+.bottom-curve {
+    position: absolute;
+    bottom: -109px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottom-curve svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 61px;
+}
+
+.bottom-curve .shape-fill {
+    fill: #f2f8fc;
+}
+
+.intro {
+    border: 10px solid #1611102c;
+    border-radius: 25px;
+    height: 50vh;
+    background-color: #ffffff0e;
+}
+
+.ipad-btn {
+    background-color: #292929;
+    border-radius: 50px;
+    width: 10px;
+}
