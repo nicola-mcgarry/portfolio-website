@@ -23,19 +23,19 @@ const About = () => {
             </div>
              <div className="row ms-4 me-4">
                 <div className='col-md-12'>
-                    <div className='pod-skills pt-5' >
-                        <div className='row d-flex flex-row'> 
-                            <div className="row d-flex justify-content-center">
-                                <FaHtml5 size={40} className="col me-3 skill-icon"/>
-                                <FaSass size={40} className="col me-3 skill-icon"/>
-                                <FaCss3Alt size={40} className="col  me-3 skill-icon"/>
-                                <FaBootstrap size={40} className="col me-3 skill-icon"/>
-                                <FaReact size={40} className="col me-3 skill-icon"/>
-                                <SiTypescript size={40} className="col me-3 skill-icon"/>
-                                <SiJavascript size={40} className="col me-3 skill-icon"/>
-                                <SiCsharp size={40} className="col me-3 skill-icon"/>
-                                <SiMysql size={40} className="col me-3 skill-icon"/>
-                                <FaAngular size={40} className="col me-3 skill-icon"/>
+                    <div className='pt-3' >
+                        <div className='row d-flex flex-row '> 
+                            <div className='d-flex justify-content-center'>
+                                <FaHtml5 size={40} className="col me-3 mb-3 skill-icon"/>
+                                <FaSass size={40} className="col me-3 mb-3 skill-icon"/>
+                                <FaCss3Alt size={40} className="col mb-3 me-3 skill-icon"/>
+                                <FaBootstrap size={40} className="col mb-3 me-3 skill-icon"/>
+                                <FaReact size={40} className="col me-3 mb-3 skill-icon"/>
+                                <SiTypescript size={40} className="col mb-3 me-3 skill-icon"/>
+                                <SiJavascript size={40} className="col mb-3 me-3 skill-icon"/>
+                                <SiCsharp size={40} className="col me-3 mb-3 skill-icon"/>
+                                <SiMysql size={40} className="col me-3 mb-3 skill-icon"/>
+                                <FaAngular size={40} className="col me-3 mb-3 skill-icon"/>
                             </div>                           
                         </div>
                             
