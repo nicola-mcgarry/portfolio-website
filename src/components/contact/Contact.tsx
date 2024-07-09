@@ -1,18 +1,18 @@
 import React from 'react';
 
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { FaCodepen } from "react-icons/fa";
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import { FaCodepen } from "react-icons/fa";
 import './Contact.css'
-import MailTo from './MailTo';
-import ContactForm from './ContactForm';
+// import MailTo from './MailTo';
+// import ContactForm from './ContactForm';
 
 const Contact: React.FC = () => {
 
     return(
-        <div id="contact"  className="container d-flex flex-column justify-content-center p-5" >
-                <h1>Get in touch!</h1>
-                <div className='row pod-contact d-flex justify-content-evenly p-3 mt-3 pt-4'>
+        <div id="contact"  className="container d-flex flex-column justify-content-center" >
+                {/*<h1>Get in touch!</h1>
+                 <div className='row pod-contact d-flex justify-content-evenly p-3 mt-3 pt-4'>
                         <div className='col-sm-6 col-xs-12'>
                             <h2 className='mb-3'>Let's Talk</h2>
                             <p>Availble to work on new projects, drop me a message using the contact form or<MailTo label="message me directly" mailto="mailto:nicolaemcgarry@gmail.com"/></p>
@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
                         <div className='col-sm-6 col-xs-12'>
                             <ContactForm />
                         </div>                
-                </div>             
+                </div>              */}
         </div>
     );
 };

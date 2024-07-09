@@ -10,6 +10,8 @@ function App() {
   
   return (
     <>
+      <div className="colorBlobPink"></div>
+      <div className="colorBlobGreen"></div>
       <Header/>
       <Home />
       <About/> 

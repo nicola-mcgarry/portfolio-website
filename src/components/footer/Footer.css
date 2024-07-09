@@ -23,27 +23,6 @@
     color: #f5e9e22f;
 }
 
-.footer-curve {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.footer-curve svg {
-    position: relative;
-    display: block;
-    width: calc(195% + 1.3px);
-    height: 100px;
-    transform: rotateY(180deg);
-}
-
-.footer-curve .shape-fill {
-    fill: #F5E9E2;
-}
-
 .icon {
     font-size:25px;
     color:#e73c7e;

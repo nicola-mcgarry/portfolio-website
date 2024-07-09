@@ -2,16 +2,25 @@
     height:auto;
     color: #f2f8fc;
     font-size: 18px;
+
+
+
 }
 
 .pod-about{
     border: 1px solid #1611102c;
     border-radius: 25px;
-    height: 700px;
+    height: auto;
     width: 800px;
     background-color: #ffffff0e;
+    z-index: 0 !important;
 }
 
 .inlineText {
     font-size: 20px;
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #ffffff0f;
 }

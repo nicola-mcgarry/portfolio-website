@@ -1,6 +1,6 @@
 .navbar {
     height: 90px;
-    background-color: #f2f8fc;
+    background-color: #ffffff0f;
 }
    
 img {
@@ -14,7 +14,7 @@ ul {
 .nav-link {
     font-size: 24px;
     text-decoration: none;
-    color: #292929;
+    color: #f2f8fc;
     font-weight: 600;
 }
 
@@ -23,7 +23,8 @@ ul {
 }
 
 .hamburger {
-  color: #292929;
+  color: #f2f8fc !important;
+  background-color: #f2f8fc00 !important;
 }
 
 .nav-links{
@@ -41,13 +42,19 @@ ul {
 
     .navbarMob {
       height: 90px;
-      background-color: #f2f8fc !important;
+      background-color: #f2f8fc10 !important;
     }
 
     .offcanvas {
-      background: #f2f8fc !important;
+      background: #292929 !important;
       height: 316px;
       border-bottom-left-radius:25px;
+
+    }
+
+    .btn-close {
+      --bs-btn-close-color: #f2f8fc !important;
+      background-color: #292929 !important;
     }
 
   }
@@ -57,3 +64,28 @@ ul {
       display:none !important;
     }
   }
+
+
+  .top-curve {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 0;
+}
+
+.top-curve svg {
+    position: relative;
+    display: block;
+    width: calc(198% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+    
+}
+
+.top-curve .shape-fill {
+    fill: #ffffff0f;
+    
+}

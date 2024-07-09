@@ -4,6 +4,7 @@ body {
   background-color: #292929;
   height: auto;
   font-family: poppins;
+  z-index: -1;
 }
 
 
