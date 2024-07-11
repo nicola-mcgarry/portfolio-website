@@ -2,6 +2,9 @@
     height:auto;
     color: #f2f8fc;
     font-size: 18px;
+    background-color: #ffffff0e;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
 
 
 
@@ -21,6 +24,5 @@
 }
 
 .skill-icon {
-    font-size: 40px;
-    color: #ffffff0f;
+    fill: #ffffff0f
 }

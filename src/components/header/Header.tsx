@@ -1,5 +1,6 @@
 import Logo from '../../assets/NMLogoW.png'
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 import './Header.css'
 import { Button } from '@mui/material';
 
@@ -43,8 +44,9 @@ const Header = () => {
             <div className="offcanvas offcanvas-end" id="navbarToggleExternalContent">
                 <div className="offcanvas-header">
                     <img src={Logo} alt="logo" className='me-auto'/>
-                    <button type="button" className="btn-close me-2" data-bs-dismiss="offcanvas" aria-label="Close">
-                    </button>
+                    <Button data-bs-dismiss="offcanvas" aria-label="Close">
+                        <IoIosCloseCircleOutline size={30} className='icon-close'/>
+                    </Button>
                 </div>           
                 <ul className="pt-2 d-flex flex-column justify-content-end">
                         <li >

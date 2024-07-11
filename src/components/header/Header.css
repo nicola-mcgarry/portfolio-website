@@ -27,6 +27,8 @@ ul {
   background-color: #f2f8fc00 !important;
 }
 
+
+
 .nav-links{
     display: none;
 }
@@ -52,9 +54,9 @@ ul {
 
     }
 
-    .btn-close {
-      --bs-btn-close-color: #f2f8fc !important;
-      background-color: #292929 !important;
+    .icon-close, Button {
+      color: #f2f8fc !important;
+      background-color: #f2f8fc00 !important;
     }
 
   }

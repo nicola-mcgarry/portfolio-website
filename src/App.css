@@ -8,22 +8,6 @@ p{
   font-size: 18px;
 }
 
-.btn-disabled {
-  font-family: Poppins;
-  border-radius: 7px;
-  background-color: #ffffff15 !important;
-  font-size: 15px;
-  color: #e73c7e !important;
-  font-weight: 500;
-  border:#ffffff15;
-
-}
-
-.btn-disabled:disabled {
-  border: 1px solid #ffffff41;
-
-}
-
 .btn-primary, Button{
   font-family: Poppins;
   border-radius: 20px !important;
@@ -31,7 +15,7 @@ p{
   background-color: #ffffff15 !important;
   color: #3ce7a5 !important;
   font-weight: 500;
-  width: 135px !important;
+  width: auto !important;
   font-size: 15px;
 
 }
@@ -46,6 +30,10 @@ p{
 .btn-close, .offcanvas-header {
   color: #f2f8fc !important;
   background-color: #292929 !important;
+}
+
+.slick-dots li button {
+background: #292929 !important;
 }
 
 .colorBlobPink {

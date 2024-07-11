@@ -3,30 +3,22 @@
     color: #f2f8fc;
 }
 
-.project{
-    background-color: #ffffff0e;
+.img-thumbnail{
     height: auto;
-    border-radius: 24px;
-    border: 3px solid #ffffff41;
-    border-radius: 25px;
+    border: 1px solid #ffffff41;
     background-color: #ffffff0e;
 
 }
 
-.project:hover {
-    border: 2px solid #e73c7e;
+.img-thumbnail:hover {
+    border: 1px solid #e73c7e;
 }
 
 
 .projectImg {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    opacity: 0.9;
-}
-
-.Link {
-    color: #e73c7e !important;
-    text-decoration: none;
+    opacity: 0.8;
 }
 
 h6 {

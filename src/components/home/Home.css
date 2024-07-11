@@ -1,26 +1,22 @@
 #home {
-    height: auto;
-    padding-top: 100px;
+    height: calc(75vh - 150px);
+    margin-top: 180px;
     color: #f2f8fc;
-    padding: 140px 60px 60px 60px;
 }
 
-.intro {
-    border: 3px solid #ffffff41;
-    border-radius: 14px;
-    height: auto;
-    background-color: #ffffff0e;
-    z-index: 1 !important;
+#home, span, h1 {
+    font-size: 60px;
 }
-
 
 span {
     color: #e73c7e;
-    font-size:47px;
 }
 
 p{
     font-weight:500;
 }
 
+.box {
+    border: 3px solid 
+}
 
