@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
                         </div> 
                     </div>
                 </div>
-                <div className='col project p-2 mb-3 pb-3'>
+                {/* <div className='col project p-2 mb-3 pb-3'>
                     <img src={EscapeArcade} alt="EscapeArcade" className='img-thumbnail'/>                    
                     <div className='row d-flex align-items-center pt-3'>
                         <div className='col d-flex'>
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
                                 <FaCss3Alt size={25} className="me-3 skill-icon"/>
                         </div> 
                     </div>
-                </div>
+                </div> */}
                 <div className='col project p-2 mb-3 pb-3'>
                     <img src={COOKFOOD} alt="cookfood" className='img-thumbnail'/>                     
                     <div className='row d-flex align-items-center pt-3'>

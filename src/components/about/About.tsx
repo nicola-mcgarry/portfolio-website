@@ -2,7 +2,7 @@ import './About.css'
 
 const About = () => {
     return(
-        <div id="about" className='container-fluid d-flex flex-column'>
+        <div id="about" className='container-fluid d-flex flex-column p-5'>
             <div className='row'>
                 <div className='col-md-12 col-lg-12 d-flex justify-content-lg-start justify-content-md-center'>                                    
                     <div className='col-lg-6 col-md-12 col-sm-12'>
