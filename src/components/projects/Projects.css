@@ -12,6 +12,7 @@
 
 .img-thumbnail:hover {
     border: 1px solid #e73c7e;
+    transform: scale(105%);
 }
 
 

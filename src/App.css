@@ -4,6 +4,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 p{
   font-size: 18px;
 }
@@ -34,6 +38,10 @@ p{
 
 .slick-dots li button {
 background: #292929 !important;
+}
+
+.slick-prev, .slick-next {
+  display: none !important;
 }
 
 .colorBlobPink {

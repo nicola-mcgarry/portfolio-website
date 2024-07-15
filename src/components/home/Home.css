@@ -1,11 +1,11 @@
 #home {
-    height: calc(75vh - 150px);
+    height: 55vh;
     margin-top: 180px;
     color: #f2f8fc;
 }
 
-#home, span, h1 {
-    font-size: 60px;
+#home, span, .hero-h1 {
+    font-size: 80px;
 }
 
 span {
@@ -15,8 +15,3 @@ span {
 p{
     font-weight:500;
 }
-
-.box {
-    border: 3px solid 
-}
-

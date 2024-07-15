@@ -11,16 +11,16 @@ const Carousel: React.FC<IconCarouselProps> = ({ icons }) => {
     const CarouselSettings = {
         dots: false,
         infinite: true,
-        speed: 300,
-        slidesToShow: 8,
+        speed: 500,
+        slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
     } 
 
   return (
-    <div className="row">
-        <Slider {...CarouselSettings} className="d-flex justify-content-center mb-5">
+    <div className="container">
+        <Slider {...CarouselSettings} className="d-flex justify-content-center mb-5 mt-5">
         {icons.map((icon, index) => {
           const IconComponent = icon.component;
           return (
