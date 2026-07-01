@@ -18,7 +18,7 @@ import './Projects.css'
 const Projects: React.FC = () => {
 
     return(
-        <div id="projects" className="container d-flex flex-column justify-content-center mt-5 ">
+        <div id="projects" className="container d-flex flex-column justify-content-center mt-5 ms-10">
             <div className='row d-flex justify-content-evenly'>
                 <h1>Personal Projects</h1>
                 <p>Projects I've coded and designed</p>
@@ -56,10 +56,9 @@ const Projects: React.FC = () => {
             
                     </div>            
             </div>
-            <div className='row d-flex justify-content-around mt-5'>
-                <h1>Work Experiance</h1>
-                <p>Projects and features i have worked on while being employed by the company's mentioned that i am proud of.</p> 
-                 <h6>All rights reserved to company's mentioned.</h6>
+            <div className='row d-flex justify-content-evenly'>
+                <h1>Professional Experiance</h1>
+                <h6>All rights reserved to company's mentioned.</h6>
                 <div className='col project p-2 mb-3 pb-3'>
                     <img src={Expectancy} alt="Expectancy" className='img-thumbnail'/>                    
                     <div className='row d-flex align-items-center pt-3'>
@@ -75,20 +74,6 @@ const Projects: React.FC = () => {
                         </div> 
                     </div>
                 </div>
-                {/* <div className='col project p-2 mb-3 pb-3'>
-                    <img src={EscapeArcade} alt="EscapeArcade" className='img-thumbnail'/>                    
-                    <div className='row d-flex align-items-center pt-3'>
-                        <div className='col d-flex'>
-                            <a type="button" target="_blank" href="#contact" className="btn btn-primary projectLink me-2">More Info</a> 
-                        </div>                       
-                        <div className='col d-flex justify-content-md-end justify-content-sm-start'>
-                                <SiCsharp size={25} className="me-3 skill-icon"/>
-                                <FaBootstrap size={25} className="me-3 skill-icon"/>
-                                <FaHtml5 size={25} className="me-3 skill-icon"/>
-                                <FaCss3Alt size={25} className="me-3 skill-icon"/>
-                        </div> 
-                    </div>
-                </div> */}
                 <div className='col project p-2 mb-3 pb-3'>
                     <img src={COOKFOOD} alt="cookfood" className='img-thumbnail'/>                     
                     <div className='row d-flex align-items-center pt-3'>

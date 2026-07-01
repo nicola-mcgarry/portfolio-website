@@ -1,11 +1,11 @@
 #home {
-    height: 55vh;
+    /* height: 55vh; */
     margin-top: 180px;
     color: #f2f8fc;
 }
 
 #home, span, .hero-h1 {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 span {
@@ -19,6 +19,6 @@ p{
 
 @media screen and (max-width:425px) {
     #home, span, .hero-h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
