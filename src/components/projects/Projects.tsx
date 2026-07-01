@@ -2,7 +2,6 @@ import ACNH from '../../assets/thumbnails/ACNH.svg'
 import portfolio from '../../assets/thumbnails/Portfolio.svg'
 import Expectancy from '../../assets/thumbnails/Expectancy.svg'
 import COOKFOOD from '../../assets/thumbnails/Cook.svg'
-import EscapeArcade from '../../assets/thumbnails/EscapeArcade.svg'
 import React from 'react';
 import { FaHtml5 } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
