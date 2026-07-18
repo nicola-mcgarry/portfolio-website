@@ -3,14 +3,15 @@ import '../footer/Footer.css'
 
 interface MailToProps {
   mailto: string;
-  label: string;
+  label: React.ReactNode;
+  className?: string;
 }
 
-const MailTo: React.FC<MailToProps> = ({ mailto, label }) => {
+const MailTo: React.FC<MailToProps> = ({ mailto, label, className }) => {
   return (
     <a
       href='#'
-      className="Link ms-1"
+      className={className}
       onClick={(e) => {
         window.location.href = mailto;
         e.preventDefault();

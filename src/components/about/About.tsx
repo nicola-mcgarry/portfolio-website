@@ -19,22 +19,30 @@ const About = () => {
                             <p>I’ve always been someone who has both a creative and a logical side. While I have full stack training, my passion is front end development. My full stack background provides a unique perspective, ensuring everything I build is both functional and visually appealing.</p>               
                             <p>When I'm not coding and fueled by coffee. I'm gaming, or hitting the gym. Personal development is super important to me, so I'm always looking for ways to grow both professionally and personally. I'm excited about the future and can't wait to tackle new challenges and opportunities in this ever-evolving industry.  </p>
                     </div>   
-                    <div className='col-lg-4 col-md-12 col-sm-12'>
-                        <div className='widget-background mt-2'>
-                            <p><CiLocationOn className='icon'/> Location</p>
-                            <p className='mb-0'>Kent, UK</p>
+                    <div className='col-lg-4 col-md-12 col-12'>
+                        <div className=' col-6 col-lg-12'>
+                            <div className='widget-background mt-2'>
+                                <p><CiLocationOn className='icon'/> Location</p>
+                                <p className='mb-0'>Kent, UK</p>
+                            </div>
                         </div>
-                          <div className='widget-background'>
-                            <p><FaCodeBranch className='icon'/> Building</p>
-                            <p>Animal Crossing Pocket Tracker</p>
+                        <div className='col-6 col-lg-12'>
+                           <div className='widget-background'>
+                                <p><FaCodeBranch className='icon'/> Building</p>
+                                <p>Animal Crossing Pocket Tracker</p>
+                            </div>
                         </div>
-                          <div className='widget-background'>
-                            <p><IoGameControllerOutline className='icon'/> Playing</p>
-                            <p>Jurassic World Evolution 3</p>
+                        <div className='col-6 col-lg-12'>
+                            <div className='widget-background'>
+                                <p><IoGameControllerOutline className='icon'/> Playing</p>
+                                <p>Jurassic World Evolution 3</p>
+                            </div>
                         </div>
-                          <div className='widget-background'>
-                            <p><CiCoffeeCup className='icon'/> Fuel</p>
-                            <p>6 Shot Blonde White Mocha</p>
+                        <div className='col-6 col-lg-12'>
+                            <div className='widget-background'>
+                                <p><CiCoffeeCup className='icon'/> Fuel</p>
+                                <p>6 Shot Blonde White Mocha</p>
+                            </div>
                         </div>
                     </div>                                      
                 </div>

@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.loading-bar {
+    opacity: .8;
+    width: 200px;
+    height: 8px;
+    background: #2b2b2b;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 2rem auto 0;
+}
+
+.loading-fill {
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            #ff4d7d,
+            #ff7fa6,
+            #ff4d7d);
+
+    animation: loading 5s ease-in-out infinite;
+
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(400%);
+    }
+}
+
+.loading-text {
+    opacity: .8;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, .65);
+    min-height: 1.5em;
+    margin-top: 2rem;
+    text-align: center;
+    animation: messageFade 3.5s ease-in-out;
+}
+
+@keyframes messageFade {
+    0% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#wip {
+    color: #f2f8fc;
+}
+
+span {
+    color: #e73c7e;
+}
+
+p {
+    font-weight: 500;
+}
+
+.wip-icon {
+    font-size: 25px;
+    color: #e73c7e;
+    opacity: 0.75;
+    transition: all .2s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #d92e73;
+    text-decoration: none;
+    transition: 0.2s ease;
+    gap: 0.6rem;
+}
+
+.wip-icon:hover {
+    transform: translateY(-2px);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#wip,
+span,
+.hero-h1 {
+    font-size: clamp(3rem, 14vw, 4.5rem);
+    line-height: 1.05;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+    #wip,
+    span,
+    .hero-h1 {
+        font-size: 5rem;
+    }
+
+    .loading-bar {
+        width: 220px;
+    }
+
+    .loading-text {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    #wip,
+    span,
+    .hero-h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-h1 {
+        font-size: 4.5rem;
+        line-height: 1.05;
+    }
+
+    .loading-bar {
+        width: 220px;
+        margin-top: 2rem;
+    }
+
+    .loading-text {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-h1 {
+        font-size: 5.5rem;
+    }
+
+    .loading-bar {
+        width: 260px;
+    }
+
+    .loading-text {
+        font-size: 1.3rem;
+    }
+}
