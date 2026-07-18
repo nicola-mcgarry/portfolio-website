@@ -1,8 +1,5 @@
 import Logo from '../../assets/NMLogoW.png'
-//import { RxHamburgerMenu } from "react-icons/rx";
-import { IoIosCloseCircleOutline } from "react-icons/io";
 import './Header.css'
-import { Button } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailTo from "../contact/MailTo";
 import { MdEmail } from "react-icons/md";
